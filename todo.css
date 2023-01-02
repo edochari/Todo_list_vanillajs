@@ -1,0 +1,61 @@
+h1{
+    text-align:center;
+}
+.box-style{
+    border:none;
+}
+input{
+    border-style:hidden;
+}
+
+/* Form styling */
+#input-task{
+    margin-left:500px;
+    height:2rem;
+    width:15rem;
+    background-color: aliceblue;
+    position:relative;
+}
+#list{
+    list-style:none;
+    
+}
+#my-input{
+    position:absolute;
+    left:10px;
+    background-color: aliceblue;
+
+}
+
+/* submit button styling */
+#submit{
+    position:absolute;
+    left:200px;
+    background-color: aliceblue;
+    border-style: none;
+
+}
+
+/* li styling */
+ul li{
+    position:relative;
+    cursor:pointer;
+    left:0;
+    padding: 12px 8px 12px 40px;
+    background-color: aquamarine;
+}
+ul li:hover{
+    background-color: cadetblue;
+}
+
+/* close button */
+.close {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    /* padding: 12px 16px 12px 16px; */
+  }
+.close:hover{
+    background-color: brown;
+    
+}
