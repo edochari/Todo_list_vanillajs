@@ -7,7 +7,7 @@ function myFunction(){
     const text=document.createTextNode(inputValue);
     li.appendChild(text);
     
-    console.log("hello");
+   
     if(inputValue===" "){
         alert("write something");
     }
